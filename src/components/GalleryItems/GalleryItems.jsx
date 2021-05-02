@@ -35,6 +35,20 @@ const changeLike = () => {
     })
 }
 
+// to return massages i want to show when there is certain amount of likes.
+const getMessage = () => {
+    if (item.likes === 0) {
+      // when there is not like return this
+      return (<p>no like at the moment.</p>);
+    } else if (item.likes === 1 ) {
+      // when there is one like return this
+      return (<p>{item.likes} person like this image.</p>);
+    } else {
+        //when there is more than 1 like return this
+        return (<p>{item.likes} people like this image.</p>);
+    }
+  }
+
     return (
         <div>
             {/*calling the image source using path from the gallery.data.js*/}
@@ -43,8 +57,8 @@ const changeLike = () => {
             <img onClick={switchInfo} src={item.path}/>
         ): (
         <p onClick={switchInfo}>{item.description}</p>
-        )}
-            <p>{item.likes} like on this image!</p>
+        )}{/* called the getMessage function in the p tag */}
+            <p>{getMessage()} </p>
             <button onClick={changeLike}>Like</button>
         </div>
     )
