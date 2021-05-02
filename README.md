@@ -1,12 +1,25 @@
 # Project Name
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+Gallery of My Favorite Animals
 
 ## Description
 
+To create a gallery of my favorite animals and when the picture is clicked it will show some information. Another feature is when the like button is clicked it will show you how many people liked the picture. 
 
 
+Prerequistes
 
-Your project description goes here. What problem did you solve? How did you solve it?
+* Nodemon
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+Installation
+
+Click on Use Template button from PrimeAcademy/react-gallery
+1. Open up your editor of choice and run an npm install
+2. Run npm run server in your terminal
+3. Run npm run client in your terminal
+4. The npm run client command will open up a new browser tab for you!
+
+
+Acknowledgement
+
+Thanks to Prime Digital Academy who equipped and helped me to make this application a reality.
