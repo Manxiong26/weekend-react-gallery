@@ -6,7 +6,7 @@ import './GalleryList.css';
 function GalleryList({galleryList, getGalleryList}) {
     return (
         <section>
-            <h2>Animals Run the World!</h2>
+            <h2>The Reason I smile!</h2>
                     {galleryList.map(item => 
                         <GalleryItems
                             // calling the id from the GalleryItems from the gallery.data.js

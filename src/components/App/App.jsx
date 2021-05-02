@@ -32,7 +32,7 @@ const getGalleryList = () => {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Gallery of My Favorite Animals</h1>
+          <h1 className="App-title">Gallery of My Little Family</h1>
         </header>
         <GalleryList
         //display the gallerylist here from GalleryList component.
