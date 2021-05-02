@@ -34,8 +34,6 @@ const getGalleryList = () => {
         <header className="App-header">
           <h1 className="App-title">Gallery of My Favorite Animals</h1>
         </header>
-        <p>Gallery goes here</p>
-        {/* <img src="images/goat_small.jpg"/> */}
         <GalleryList
         //display the gallerylist here from GalleryList component.
             galleryList={galleryList}

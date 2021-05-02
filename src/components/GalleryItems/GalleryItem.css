@@ -1,12 +1,22 @@
 button{
     padding: 5px 20px;
-    color: rgb(24, 74, 74);
-    background-color: rgba(36, 167, 167, 0.208);
+    color: rgb(53, 83, 128);
+    background-color: rgba(89, 156, 201, 0.208);
 }
 
 img{
     width: 200px;
-    border: 3px solid rgba(76, 71, 71, 0.24);
-    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.479);
+    height: 200px;
+    border: 3px solid rgba(111, 99, 224, 0.24);
+    box-shadow: 5px 5px 5px rgba(96, 92, 92, 0.479);
     
+}
+
+div{
+    display: inline-block;
+    padding: 10px;
+}
+
+p{
+    color: rgb(45, 45, 204);
 }
