@@ -32,7 +32,7 @@ const getGalleryList = () => {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Gallery of My Life</h1>
+          <h1 className="App-title">Gallery of My Favorite Animals</h1>
         </header>
         <p>Gallery goes here</p>
         {/* <img src="images/goat_small.jpg"/> */}
@@ -40,6 +40,7 @@ const getGalleryList = () => {
         //display the gallerylist here from GalleryList component.
             galleryList={galleryList}
         />
+        
       </div>
     );
 }
