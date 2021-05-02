@@ -1,3 +1,12 @@
+button{
+    padding: 5px 20px;
+    color: rgb(24, 74, 74);
+    background-color: rgba(36, 167, 167, 0.208);
+}
+
 img{
-    width: 100px;
+    width: 200px;
+    border: 3px solid rgba(76, 71, 71, 0.24);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.479);
+    
 }

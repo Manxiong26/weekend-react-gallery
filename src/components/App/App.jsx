@@ -39,6 +39,7 @@ const getGalleryList = () => {
         <GalleryList
         //display the gallerylist here from GalleryList component.
             galleryList={galleryList}
+            getGalleryList={getGalleryList}
         />
         
       </div>
