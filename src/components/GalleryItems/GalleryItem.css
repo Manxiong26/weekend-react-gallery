@@ -1,6 +1,7 @@
 button{
     padding: 5px 20px;
-    color: rgb(53, 83, 128);
+    color: rgb(221, 217, 217);
+    font-style: bold;
     background-color: rgba(89, 156, 201, 0.208);
 }
 
@@ -18,5 +19,7 @@ div{
 }
 
 p{
-    color: rgb(45, 45, 204);
+    color: rgb(200, 200, 233);
+    font-size: 20px;
+    font-style: bold;
 }

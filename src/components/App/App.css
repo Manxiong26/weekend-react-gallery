@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: rgb(66, 114, 219);
+  background-color: rgb(15, 84, 232);
   padding: 1em;
   color: white;
   margin-bottom: 1em;
@@ -15,5 +15,10 @@
 }
 
 body{
-  color: blue;
+  color: rgb(231, 223, 223);
+  background-image: url(https://images.unsplash.com/photo-1559825481-12a05cc00344?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b2NlYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
 }
