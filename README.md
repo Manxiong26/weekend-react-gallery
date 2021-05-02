@@ -6,6 +6,7 @@ Gallery of My Favorite Animals
 
 To create a gallery of my favorite animals and when the picture is clicked it will show some information. Another feature is when the like button is clicked it will show you how many people liked the picture. 
 
+![images]((http://url/to/img.png))
 
 Prerequistes
 
